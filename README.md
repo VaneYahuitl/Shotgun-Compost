@@ -1,8 +1,11 @@
 <h1 align="center"> Shotgun-Compost </h1>
-Análisis de datos de secuenciación por Shotgun a partir de muestras de composta de estiercol de vaca:
+Shotgun sequencing data analysis from cow manure compost samples:
 
-## :hammer:Etapas del proyecto
-- `Etapa 1`: Preprocessing data- `Etapa 2`: Taxonomy Read-Based
+## :hammer:Project stages
+- `Stage 1`: Preprocessing data
+- `Stage 2`: Taxonomy Read-Based
+- `Stage 3`: Protein annotation
+- `Stage 4`: Metabolic pathways
 
 1.Preprocessing data:
 Raw reads were mapped against the masked human reference genome GRCh38.p14 and the cow reference genome ARS-UCD1.3 using BBMap (https://sourceforge.net/projects/bbmap/). 
@@ -22,3 +25,10 @@ To quantify the genes, we used bowtie2 v. 2.5.3 (Langmead and Salzber, 2012) and
 
 The generic feature annotation file (GFF Prokka's annotation output) was filtered to retain all genes with a KO identifier assigned.
 The "Minimal set of Pathways" tool (MinPath v. 1.4, Ye and Doak (2009)) was used to obtain a conservative estimation of pathways.
+
+
+## Citation
+
+The results can be viewed and cited at https://doi.org/10.3389/fmicb.2024.1425548
+
+
