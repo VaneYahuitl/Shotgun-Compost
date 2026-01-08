@@ -1,5 +1,8 @@
-# Shotgun-Compost
+<h1 align="center"> Shotgun-Compost </h1>
 Análisis de datos de secuenciación por Shotgun a partir de muestras de composta de estiercol de vaca:
+
+## :hammer:Etapas del proyecto
+- `Etapa 1`: Preprocessing data- `Etapa 2`: Taxonomy Read-Based
 
 1.Preprocessing data:
 Raw reads were mapped against the masked human reference genome GRCh38.p14 and the cow reference genome ARS-UCD1.3 using BBMap (https://sourceforge.net/projects/bbmap/). 
